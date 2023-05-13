@@ -1,0 +1,27 @@
+.list {
+    padding: 0;
+  }
+  
+  .item {
+    display: flex;
+    gap: 20px;
+    width: 300px;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .number {
+    font-weight: 600;
+  }
+  
+  .button {
+    background-color: white;
+    border: 1px solid rgb(22, 89, 190);
+    border-radius: 4px;
+    padding: 1px 10px;
+    font-size: 16px;
+  }
+  
+  .button:hover {
+    background: rgb(60, 167, 238);
+  }
